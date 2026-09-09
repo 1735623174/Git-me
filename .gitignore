@@ -1,0 +1,56 @@
+# ---------- 系统文件 ----------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ---------- 编辑器 / IDE ----------
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+.ropeproject/
+
+# ---------- 日志与临时文件 ----------
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+temp/
+tmp/
+*.pid
+
+# ---------- 环境变量与密钥（切勿提交） ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# ---------- 压缩包 / 安装包 ----------
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.exe
+*.msi
+*.dmg
+
+# ---------- 操作系统运行痕迹 ----------
+.DS_Store
+.LSOverride
+.AppleDouble
+Icon?
